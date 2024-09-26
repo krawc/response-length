@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+
+    <title>BMW Voice Assistant Demo</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <h1>BMW Voice Assistant Demonstrator</h1>
+    <hr>
+    <p>You can ask the assistant:</p>
+    <ul type="square">
+        <li>about tomorrows weather</li>
+        <li>to play Ukulele song by Rafael</li>
+        <li>to set a timer to a specific amount of minutes</li>
+        <li>to set a reminder to "Get Cake" at a specific time</li>
+        <li>about your shedule/calendar tomorrow</li>
+        <li>to set the background color to blue</li>
+        <li>about the latest news</li>
+        <li>about the population size of USA</li>
+    </ul>
+    <hr>
+
+    <p>Select a response style:</p>
+    <input type="radio" name="response_style" value="minimal" checked>Minimal<br>
+    <input type="radio" name="response_style" value="keyword">Keyword<br>
+    <input type="radio" name="response_style" value="full sentence">Full sentence<br>
+    
+    <hr>
+    
+    <p>Select a voice mode:</p>
+    <select id="voiceMode">
+      <option value="sport">Sport Mode</option>
+      <option value="roadtrip">Roadtrip Mode</option>
+      <option value="business">Business Mode</option>
+    </select>
+
+    <p><button class="button ask">Click to ask.</button></p>
+    <hr>
+    <script src="script.js"></script>
+  </body>
+</html>
